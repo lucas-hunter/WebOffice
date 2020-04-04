@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    margin:0;
+    background-image: url("../office/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items:center;
+}
+.loginBox{
+    position: absolute;
+    left:48.8%;
+    top:36%; 
+    transform: translate(-50%);
+    width: 25%;
+}
+input{
+    height:40px;
+    width:100%;
+    margin-top:10px;
+    text-align:center;
+    display: block;
+    border:1px solid rgb(150, 150, 150);
+    outline: none;
+}
+input[type = 'submit']{
+    background-color: rgb(226, 226, 226);
+}
+input[type = 'submit']:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+input[type = 'submit']:active{
+    background-color: rgb(216, 216, 216);
+}
+#result{
+    margin-top:10px;
+    text-align: center;
+}
